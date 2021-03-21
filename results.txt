@@ -1,0 +1,46 @@
+500 слов
+
+BenchmarkMapLowerCaseInsert-8              24579             46437 ns/op              20 B/op          0 allocs/op
+BenchmarkListLowerCaseInsert-8             39908             28671 ns/op               3 B/op          0 allocs/op
+BenchmarkMapAllCaseInsert-8                27319             44401 ns/op              18 B/op          0 allocs/op
+BenchmarkListAllCaseInsert-8               40495             29048 ns/op               3 B/op          0 allocs/op
+BenchmarkMapWithNumbersInsert-8            27152             42535 ns/op              18 B/op          0 allocs/op
+BenchmarkListWithNumbersInsert-8           40622             29544 ns/op               3 B/op          0 allocs/op
+
+2000 слов
+
+BenchmarkMapLowerCaseInsert-8               5118            227654 ns/op             349 B/op          6 allocs/op
+BenchmarkListLowerCaseInsert-8              7022            148994 ns/op              71 B/op          3 allocs/op
+BenchmarkMapAllCaseInsert-8                 4724            216459 ns/op             420 B/op          7 allocs/op
+BenchmarkListAllCaseInsert-8                6784            152161 ns/op              77 B/op          3 allocs/op
+BenchmarkMapWithNumbersInsert-8             5824            208168 ns/op             338 B/op          5 allocs/op
+BenchmarkListWithNumbersInsert-8            7404            149001 ns/op              72 B/op          3 allocs/op
+
+
+5000 слов
+
+BenchmarkMapLowerCaseInsert-8               1508            673333 ns/op            2855 B/op         50 allocs/op
+BenchmarkListLowerCaseInsert-8              2571            427341 ns/op             465 B/op         21 allocs/op
+BenchmarkMapAllCaseInsert-8                 1581            701006 ns/op            2936 B/op         51 allocs/op
+BenchmarkListAllCaseInsert-8                2319            468243 ns/op             544 B/op         25 allocs/op
+BenchmarkMapWithNumbersInsert-8             1744            617833 ns/op            2763 B/op         48 allocs/op
+BenchmarkListWithNumbersInsert-8            2292            482908 ns/op             565 B/op         25 allocs/op
+
+10_000 слов
+
+BenchmarkMapLowerCaseInsert-8                646           1620200 ns/op           13107 B/op        229 allocs/op
+BenchmarkListLowerCaseInsert-8              1212            960045 ns/op            1883 B/op         86 allocs/op
+BenchmarkMapAllCaseInsert-8                  710           1570008 ns/op           12787 B/op        224 allocs/op
+BenchmarkListAllCaseInsert-8                1056           1050267 ns/op            2334 B/op        108 allocs/op
+BenchmarkMapWithNumbersInsert-8              724           1563792 ns/op           12777 B/op        221 allocs/op
+BenchmarkListWithNumbersInsert-8            1047           1092807 ns/op            2359 B/op        109 allocs/op
+
+100_000
+
+BenchmarkMapLowerCaseInsert-8                 22          45464526 ns/op         3333457 B/op      59021 allocs/op
+BenchmarkListLowerCaseInsert-8                42          28289120 ns/op          483103 B/op      22223 allocs/op
+BenchmarkMapAllCaseInsert-8                   33          34482535 ns/op         2562745 B/op      44366 allocs/op
+BenchmarkListAllCaseInsert-8                  44          25897765 ns/op          511550 B/op      23221 allocs/op
+BenchmarkMapWithNumbersInsert-8               36          32314854 ns/op         2384227 B/op      41202 allocs/op
+BenchmarkListWithNumbersInsert-8              40          29966748 ns/op          576362 B/op      25942 allocs/op
+
